@@ -1,0 +1,15 @@
+benchmark name                       samples       iterations    estimated
+                                     mean          low mean      high mean
+                                     std dev       low std dev   high std dev
+-------------------------------------------------------------------------------
+Fibonacci with loop                            100           666      3.663 ms 
+                                        55.2748 ns    53.6186 ns    56.3258 ns 
+                                        6.59039 ns    4.45038 ns    9.03455 ns 
+                                                                               
+Fibonacci with recursion                       100             1    413.249 ms 
+                                        4.21501 ms    4.18541 ms    4.24867 ms 
+                                        160.629 us    137.835 us    194.475 us 
+                                                                               
+Fibonacci with tail recursion                  100          1245     3.6105 ms 
+                                         30.445 ns    29.1036 ns    34.5719 ns 
+                                        10.6881 ns    3.03957 ns    23.1149 ns 

@@ -1,0 +1,3 @@
+loop the fastest
+then non tail recursion as each function call creates new stack
+release slower then debug due to enabled optimisation
